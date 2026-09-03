@@ -1,11 +1,11 @@
 {
-  "domain": "reef_factory_dose",
-  "name": "Reef Factory X3 Dosing Pump",
-  "codeowners": ["@realiztw"],
+  "domain": "reef_factory_dose_pro",
+  "name": "Reef Factory Dosing Pump Pro",
+  "codeowners": ["@wakeyoo"],
   "config_flow": true,
-  "documentation": "https://github.com/realiztw/reef-factory-dose",
+  "documentation": "https://github.com/wakeyoo/reef-factory-dose",
   "iot_class": "cloud_polling",
-  "issue_tracker": "https://github.com/realiztw/reef-factory-dose/issues",
+  "issue_tracker": "https://github.com/wakeyoo/reef-factory-dose/issues",
   "requirements": [],
   "version": "1.0.0"
 }
