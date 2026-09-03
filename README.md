@@ -1,10 +1,10 @@
-# Reef Factory X3 Dosing Pump — Home Assistant Integration
+# Reef Factory X1 Dosing Pump — Home Assistant Integration
 
 [![HACS Custom](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://github.com/hacs/integration)
 [![GitHub Release](https://img.shields.io/github/release/realiztw/reef-factory-dose.svg)](https://github.com/realiztw/reef-factory-dose/releases)
 [![Validate](https://github.com/realiztw/reef-factory-dose/actions/workflows/validate.yaml/badge.svg)](https://github.com/realiztw/reef-factory-dose/actions/workflows/validate.yaml)
 
-A Home Assistant custom integration for the **Reef Factory X3 Dosing Pump** — a three-channel automated dosing system for reef aquariums (typically used to dose alkalinity, calcium, and magnesium).
+A Home Assistant custom integration for the **Reef Factory X1 Dosing Pump** — an individual channel automated dosing system for reef aquariums (typically used to dose alkalinity, calcium, and magnesium).
 
 This integration connects to the [Smart Reef](https://smartreef.reeffactory.com/) cloud API to surface all three dosing channels' data directly in Home Assistant, enabling automations, dashboards, and long-term dose history tracking.
 
@@ -24,7 +24,7 @@ This integration connects to the [Smart Reef](https://smartreef.reeffactory.com/
 
 ## Prerequisites
 
-- A [Reef Factory X3 Dosing Pump](https://reeffactory.com/product/x3/) device
+- A [Reef Factory X1 Dosing Pump]
 - A **Smart Reef account** (the same credentials used in the Smart Reef mobile app)
 - Your device's **serial number** (found in the Smart Reef app under Device Settings, e.g. `RFDX012345678901`)
 
@@ -40,12 +40,12 @@ This integration connects to the [Smart Reef](https://smartreef.reeffactory.com/
 4. Add the repository URL: `https://github.com/realiztw/reef-factory-dose`
    - Category: **Integration**
 5. Click **Add**
-6. Find **Reef Factory X3 Dosing Pump** in the HACS integration list and click **Download**
+6. Find **Reef Factory X1 Dosing Pump** in the HACS integration list and click **Download**
 7. Restart Home Assistant
 
 ### Manual installation
 
-1. Download the [latest release](https://github.com/realiztw/reef-factory-dose/releases/latest)
+1. Download the [latest release]
 2. Copy the `custom_components/reef_factory_dose` folder into your Home Assistant `config/custom_components/` directory
 3. Restart Home Assistant
 
@@ -69,7 +69,7 @@ The integration will validate your credentials and create all entities automatic
 
 ## Entities
 
-All entities are created under a single device named **X3 Dosing Pump `<serial>`**. Channels are labelled A, B, and C corresponding to the three pump heads.
+All entities are created under a single device named **X1 Dosing Pump `<serial>`**. Channels are labelled A, B, and C corresponding to the three pump heads.
 
 | Entity | Type | Unit | Channel | Notes |
 |--------|------|------|---------|-------|
